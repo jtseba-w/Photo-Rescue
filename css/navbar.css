@@ -1,0 +1,19 @@
+.navbar { display: flex; justify-content: space-between; position: fixed; z-index: 999; width: 100vw; padding-left: 10px; box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.247);}
+.hamburger { font-size: 1.5rem; cursor: pointer; }
+
+/* The core layout & animation logic */
+.nav-links {
+  position: absolute;
+  top: 100%; left: 0; width: 100%;
+  
+  height: 0vh;
+  overflow: hidden;
+  transition: 1s ease-in-out;
+  background-color: var(--secondary-colour);
+}
+
+.nav-links h2{
+    padding: 10px 0px;
+}
+
+.nav-links.show { height: 100vh; }

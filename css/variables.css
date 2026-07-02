@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root{
+    --primary-font: 'Public Sans', sans-serif;
+    --secondary-font:"Libre Baskerville", serif;
+    
+    --primary-colour: #26445D;
+    --primary-colour-light:#CCE5FF;
+    --secondary-colour:#84A59D;
+    --secondary-colour-light:#C7EAE1;
+    --tertiary-colour:#926F69;
+    --tertiary-colour-light:#FFDAD4;
+    --neutral-colour:#F7F2ED;
+    --neutral-colour-dark:#ECE7E2;
+}
