@@ -1,0 +1,99 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Recsue</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar white">
+  <div class="flex-parent"><h1 class="no-margin secondary-font"><i class="white">Photo Rescue</i></h1></div>
+  <button onclick="document.getElementById('menu').classList.toggle('show')" class="hamburger">☰</button>
+  <ul id="menu" class="nav-links no-margin">
+    <li><a href="index.html"><h2 class="no-margin"><u>Home</u></h2></a></li>
+    <li><a href="pricing.html"><h2 class="no-margin">Pricing</h2></a></li>
+    <li><a href="interactiveGallery.html"><h2 class="no-margin">Interacive Gallery</h2></a></li>
+    <li><a href="tel:+256771598774"><h2 class="no-margin">Contact</h2></a></li>
+    <li><a href="freePhotoTrial.html"><h2 class="no-margin">Free Trial</h2></a></li>
+  </ul>
+</nav>
+
+    <section class="teal-light flex-parent flex-space-between">
+        <div style="max-width: 500px;">
+            <h1 class="title-text">Restoring your memories <i>frame</i> <i>by frame</i></h1>
+            <p>Bring your family's greatest hits back to life. We help people rescue their old(or new) photos. No fancy labs just a practioner who cares about your story.</p>
+            <a href="freePhotoTrial.html"><button class="blue">Free Photo Trial</button></a>
+            <a href="#index-section-4"><button>How It Works</button></a>
+        </div>
+        <div>
+                   <div class="slider tilt-right cornered" style="--p: 50%;">
+  <img src="images/colourCorrected.png">
+  <img src="images/notColourCorrected.jpg" style="clip-path: inset(0 calc(100% - var(--p)) 0 0);">
+  <input type="range" value="50" oninput="this.parentNode.style.setProperty('--p', this.value + '%')">
+</div>
+        </div>
+    </section>
+    <section>
+        <h1 class="text-center h1">Time is a bit of a theif (but we can catch it)</h1>
+        <p class="text-center">Every image tells a story. Those stories last forever, but not all photos do. </p>
+    <div class="flex-parent">
+                <div class="card">
+            <img class="svg neutral" src="images/video.svg" alt="">
+            <h1 class="no-margin">Memory Lane</h1>
+            <p> A small video showcasing your stories moments. Based on a script of your choice.</p>
+            <a href="pricing.html"><button class="neutral">See Pricing</button></a>
+        </div>
+                        <div class="card">
+            <img class="svg teal-light" src="images/colour bucket.svg" alt="">
+            <h1 class="no-margin">Faded Colours</h1>
+            <p> We restore old (or bad quality) photos to their best quality.</p>
+            <a href="pricing.html"><button class="blue">See Pricing</button></a>
+        </div>
+        <div class="card">
+            <img class="svg rose-light" src="images/photo album.svg" alt="">
+            <h1 class="no-margin text-no-wrap">Digital Album</h1>
+            <p> We put you physical photos into an everlasting digital album you can share.</p>
+            <a href="pricing.html"><button class="rose">See Pricing</button></a>
+        </div>
+
+    </div>
+    </section>
+    <section id="index-section-3" >
+        <center>
+            <div class="transparent">
+                <h1 >See The Magic</h1>
+                <p>Browse our collection of restored memories.</p>
+                <a href="interactiveGallery.html"><button style="font-size: 20px;">Interactive Gallery</button></a>
+            </div>  
+    </center>
+    </section>
+    <section id="index-section-4">
+        <h1 class="text-center">Three simple steps to a digital archive</h1>
+        <center>
+        <div>
+            <img src="images/shopping.svg" alt="" class="svg rose-light circle">
+            <h2>1. Drop off</h2>
+            <p>Bring your images to our location in <i>Wakiso Bwebajja</i>. We'll inventory and price everything on spot.</p>
+        </div>
+        <div>
+            <img src="images/magic.svg" alt="" class="svg rose-light circle">
+            <h2>2. We Restore</h2>
+            <p>Once delivered, your images will be scanned. Depending on your package, they could be corrected, healed and enhanced.</p>
+        </div>
+        <div>
+            <img src="images/cloud.svg" alt="" class="svg rose-light circle">
+            <h2>3. Enjoy and share</h2>
+            <p>Once finished, you shall be given a folder containing your revived images. You shall also receive a link containing your digital album on <i>Google Photos</i>.</p>
+        </div>
+    </center>
+    </section>
+    <section class="flex-parent">
+        <div class="transparent blue text-center" style="background-color: var(--primary-colour);">
+            <h1 style="font-size: 40px;">Ready to see those memories in high-def?</h1>
+        
+        <a href="pricing.html"><button class="rose">See Pricing</button></a>
+        <a href="tel:+256771598774"><button class="teal-light">Contact Now</button></a>
+        </div>
+    </section>
+</body>
+</html>

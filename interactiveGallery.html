@@ -1,0 +1,96 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Recsue</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+        <nav class="navbar white">
+  <div class="flex-parent"><h1 class="no-margin secondary-font"><i class="white">Photo Rescue</i></h1></div>
+  <button onclick="document.getElementById('menu').classList.toggle('show')" class="hamburger">☰</button>
+  <ul id="menu" class="nav-links no-margin">
+    <li><a href="index.html"><h2 class="no-margin">Home</h2></a></li>
+    <li><a href="pricing.html"><h2 class="no-margin">Pricing</h2></a></li>
+    <li><a href="interactiveGallery.html"><h2 class="no-margin"><u>Interacive Gallery</u></h2></a></li>
+    <li><a href="tel:+256771598774"><h2 class="no-margin">Contact</h2></a></li>
+    <li><a href="freePhotoTrial.html"><h2 class="no-margin">Free Trial</h2></a></li>
+  </ul>
+</nav>
+    <section class="rose-light">
+        <h1 class="title-text">See the magic</h1>
+        <p>Browse a collection of a photo restored using our various package features</p>
+        <a href="index.html"><button class="rose">Return Home</button></a>
+    </section>
+    <section>
+        <center>
+            <h1 class="title-text no-margin" >July Collection</h1>
+            <p class="no-margin">Early photos <br> All images were restored to their <i>Original</i> quality.</p>
+        <div >
+       <div class="slider" style="--p: 50%;">
+  <img src="images/scanned.jpg">
+  <img src="images/manual.jpeg" style="clip-path: inset(0 calc(100% - var(--p)) 0 0);">
+  <input type="range" value="50" oninput="this.parentNode.style.setProperty('--p', this.value + '%')">
+</div>
+<li>Scanning</li>
+</div>
+        <div>
+                    <div >
+
+       <div class="slider" style="--p: 50%;">
+  <img src="images/advancedcorrection.png">
+  <img src="images/dull.jpeg" style="clip-path: inset(0 calc(100% - var(--p)) 0 0);">
+  <input type="range" value="50" oninput="this.parentNode.style.setProperty('--p', this.value + '%')">
+</div>
+<li>Colour Correction</li></div>
+       <div class="slider" style="--p: 50%;">
+  <img src="images/colourCorrected.png">
+  <img src="images/notColourCorrected.jpg" style="clip-path: inset(0 calc(100% - var(--p)) 0 0);">
+  <input type="range" value="50" oninput="this.parentNode.style.setProperty('--p', this.value + '%')">
+</div>
+<li><i>Advanced</i> Colour Correction</li>
+<li>Noise Reduction</li>
+</div>
+        <div>
+       <div class="slider" style="--p: 50%;">
+  <img src="images/noiseReduction.jpg">
+  <img src="images/noNoiseReduction.jpg" style="clip-path: inset(0 calc(100% - var(--p)) 0 0);">
+  <input type="range" value="50" oninput="this.parentNode.style.setProperty('--p', this.value + '%')">
+</div>
+
+<li class="no-margin"><i>Advanced</i> Colour Correction</li>
+<li class="no-margin">Noise Reduction</li>
+<li> Scratch Repair</li>
+<li>Dust removal</li>
+</div>
+<div>
+       <div class="slider" style="--p: 50%;">
+  <img src="images/tearAndRepair.jpg">
+  <img src="images/torn.jpg" style="clip-path: inset(0 calc(100% - var(--p)) 0 0);">
+  <input type="range" value="50" oninput="this.parentNode.style.setProperty('--p', this.value + '%')">
+</div>
+<li><i>Advanced</i> Colour Correction</li>
+<li>Scratch Removal</li>
+<li>Noise Reduction</li>
+<li>Crease Repair</li>
+<li>Dust Removal</li>
+
+<li><i>Tear Repair</i></li>
+
+</div>
+</center>
+    </section>
+            <section id="index-section-3" >
+                <center>
+<div class="transparent">
+            <h1 class="text-center">Ready To Revive Those Images?</h1>    
+            <a href="pricing.html">
+            <button class="rose" style="font-size: 25px;">See Pricing</button>
+        </a>    
+        <a href="tel:+256771598774">
+            <button class="rose-light" style="font-size: 25px;">Contact Us</button>
+        </a>
+    </div></center>
+    </section>
+</body>
+</html>

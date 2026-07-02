@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.navbar { display: flex; justify-content: space-between; position: relative; }
+.hamburger { font-size: 1.5rem; cursor: pointer; }
+
+/* The core layout & animation logic */
+.nav-links {
+  position: absolute;
+  top: 100%; left: 0; width: 100%;
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.nav-links.show { max-height: 200px; }
+</style>
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="logo">Logo 🎨</div>
+  <button onclick="document.getElementById('menu').classList.toggle('show')" class="hamburger">☰</button>
+  <ul id="menu" class="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#about">About</a></li>
+  </ul>
+</nav>
+
+</body>
+</html>
