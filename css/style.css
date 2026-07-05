@@ -28,6 +28,7 @@ i{color: var(--tertiary-colour);}
 .text-no-wrap{white-space: nowrap;}
 .label{font-size: 20px; width: max-content; padding: 3px 20px; border-radius: 30px; min-width: 150px; margin: 3px;}
 .small-text{font-size: .9rem;}
+.square{padding: 7px; border-radius: 10px;}
 .no-border{border: none !important;}
 .cornered{border-radius: 0px;}
 
